@@ -15,12 +15,12 @@ homepage = "https://github.com/Synodic-Software/CPPython-Poetry"
 repository = "https://github.com/Synodic-Software/CPPython-Poetry"
 
 [tool.poetry.dependencies]
-poetry = {version = "^1.2.0a1", allow-prereleases = true}
+poetry = {version = "^1.2.0a2", allow-prereleases = true}
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^21.6b0", allow-prereleases = true}
-pylint = "^2.8.3"
+black = {version = "^21.7b0", allow-prereleases = true}
+pylint = "^2.9.6"
 pytest = "^6.2.4"
 pytest-cov = "^2.12.1"
 pytest-mock = "^3.6.1"
@@ -46,4 +46,4 @@ max-line-length = "120"
 
 [build-system]
 build-backend = "poetry.core.masonry.api"
-requires = ["poetry>=1.1.6"]
+requires = ["poetry>=1.1.7"]
