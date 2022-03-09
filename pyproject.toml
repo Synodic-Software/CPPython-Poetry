@@ -15,10 +15,11 @@ homepage = "https://github.com/Synodic-Software/CPPython-Poetry"
 repository = "https://github.com/Synodic-Software/CPPython-Poetry"
 
 [tool.poetry.dependencies]
+cppython = {path = "../CPPython/", develop = true}
 poetry = {version = "^1.2.0a2", allow-prereleases = true}
 python = "^3.9"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 black = {version = "^21.7b0", allow-prereleases = true}
 pylint = "^2.9.6"
 pytest = "^6.2.4"
